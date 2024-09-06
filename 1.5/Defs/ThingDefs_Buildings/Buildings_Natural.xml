@@ -49,7 +49,7 @@
       </li>-->
       <li Class="CompProperties_SpawnerHives" />
       <li Class="CompProperties_Spawner">
-        <thingToSpawn>InsectJelly</thingToSpawn>
+        <thingToSpawn>pphhyy_InsectJelly</thingToSpawn>
         <spawnCount>20</spawnCount>
         <spawnIntervalRange>26000~30000</spawnIntervalRange>
         <spawnMaxAdjacent>40</spawnMaxAdjacent>

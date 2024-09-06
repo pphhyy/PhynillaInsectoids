@@ -57,7 +57,7 @@
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1.7</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
@@ -156,7 +156,7 @@
     <uiIconScale>1.15</uiIconScale>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>Silk</woolDef>
+        <woolDef>InsectoidSilk</woolDef>
         <shearIntervalDays>10</shearIntervalDays>
         <woolAmount>25</woolAmount>
       </li>
@@ -192,7 +192,7 @@
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>0.7</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>None</trainability>
@@ -314,7 +314,7 @@
       <baseHealthScale>0.8</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>6</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
