@@ -6,7 +6,7 @@
 
     <ThingDef ParentName="TableGatherSpotBase">
         <defName>CeraAlbaTable2x2c</defName>
-        <label>table (2x2)</label>
+        <label>cera alba table (2x2)</label>
         <description>Cera Alba table to eat off of.</description>
         <graphicData>
           <texPath>Buildings/CeraAlba2x2Table/CeraAlba2x2Table_south</texPath>
@@ -201,7 +201,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>ColumnGlowPod</defName>
     <label>column glow pod</label>
-    <description>CeraAlba Column for supporting the ceilings of hives deep in the mountains, with attached glow pods for light.</description>
+    <description>Cera Alba Column for supporting the ceilings of hives deep in the mountains, with attached glow pods for light.</description>
     <designationCategory>Structure</designationCategory>
     <uiOrder>2040</uiOrder>
     <thingCategories>

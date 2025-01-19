@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <RecipeDef Name= "GestatingRecipeBase" Abstract= "true">
+        <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+        <workSkill>Cooking</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Brewing</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <workAmount>1000</workAmount>
+        <targetCountAdjustment>1</targetCountAdjustment>
+        <recipeUsers>
+		   <li>pphhyy_GestationWorkbench</li>
+		</recipeUsers>
+    </RecipeDef>
+
+    <!-- Scarabs -->
+
+<!-- Mega Scarab -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggMegaScarab</defName>
+        <label>make gestating mega scarab egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating mega scarab egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggMegaScarab>1</pphhyy_GestatingEggMegaScarab>
+        </products>
+    </RecipeDef>
+
+<!-- Hunter Scarab -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggHunterScarab</defName>
+        <label>make gestating hunter scarab egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating hunter scarab egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidSilk</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidSilk</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggHunterScarab>1</pphhyy_GestatingEggHunterScarab>
+        </products>
+    </RecipeDef>
+
+<!-- Acid Scarab -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggAcidScarab</defName>
+        <label>make gestating acid scarab egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating acid scarab egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggAcidScarab>1</pphhyy_GestatingEggAcidScarab>
+        </products>
+    </RecipeDef>
+
+    <!-- Spelopedes -->
+
+<!-- Spelopede -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggSpelopede</defName>
+        <label>make gestating spelopede egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating spelopede egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggSpelopede>1</pphhyy_GestatingEggSpelopede>
+        </products>
+    </RecipeDef>
+
+<!-- Hunter Spelopede -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggHunterSpelopede</defName>
+        <label>make gestating hunter spelopede egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating hunter spelopede egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidSilk</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidSilk</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggHunterSpelopede>1</pphhyy_GestatingEggHunterSpelopede>
+        </products>
+    </RecipeDef>
+
+<!-- Spelopede -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggSilkSpelopede</defName>
+        <label>make gestating silk spelopede egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating silk spelopede egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggSilkSpelopede>1</pphhyy_GestatingEggSilkSpelopede>
+        </products>
+    </RecipeDef>
+
+    <!-- Spiders -->
+
+<!-- Hunter Spider -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggWarriorSpider</defName>
+        <label>make gestating warrior spider egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating warrior spider egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidChitin</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggWarriorSpider>1</pphhyy_GestatingEggWarriorSpider>
+        </products>
+    </RecipeDef>
+
+<!-- MegaSpider -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggMegaSpider</defName>
+        <label>make gestating megaspider egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating megaspider egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggMegaSpider>1</pphhyy_GestatingEggMegaSpider>
+        </products>
+    </RecipeDef>
+
+<!-- Nursery Spider -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggNurserySpider</defName>
+        <label>make gestating nursery spider egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating nursery spider egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggNurserySpider>1</pphhyy_GestatingEggNurserySpider>
+        </products>
+    </RecipeDef>
+
+<!-- Acid Spider -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggAcidSpider</defName>
+        <label>make gestating acid spider egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating acid spider egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>AcidJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>AcidJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggAcidSpider>1</pphhyy_GestatingEggAcidSpider>
+        </products>
+    </RecipeDef>
+
+    <!-- Mammoths -->
+
+<!-- Plasma Mammoth -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggPlasmaMammoth</defName>
+        <label>make gestating plasma mammoth egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating plasma mammoth egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>AcidJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>AcidJelly</li>
+                <li>InsectoidChitin</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggPlasmaMammoth>1</pphhyy_GestatingEggPlasmaMammoth>
+        </products>
+    </RecipeDef>
+
+<!-- Tunneler Mammoth -->
+ 
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggTunnelerMammoth</defName>
+        <label>make gestating tunneler mammoth egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating tunneler mammoth egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidChitin</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggTunnelerMammoth>1</pphhyy_GestatingEggTunnelerMammoth>
+        </products>
+    </RecipeDef>
+
+    <!-- Royals -->
+
+<!-- Titan -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggTitan</defName>
+        <label>make gestating titan egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating titan egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>400</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidChitin</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggTitan>1</pphhyy_GestatingEggTitan>
+        </products>
+    </RecipeDef>
+
+<!-- Prince consort -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggPrinceconsort</defName>
+        <label>make gestating prince consort egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating prince consort egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>300</count>
+            </li>
+             <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidSilk</li>
+                    </thingDefs>
+                </filter>
+                <count>150</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+                <li>InsectoidChitin</li>
+                <li>InsectoidSilk</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggPrinceconsort>1</pphhyy_GestatingEggPrinceconsort>
+        </products>
+    </RecipeDef>
+
+<!-- Queen -->
+
+    <RecipeDef ParentName= "GestatingRecipeBase">
+        <defName>pphhyy_GestatingEggQueen</defName>
+        <label>make gestating queen egg </label>
+        <description>PLACEHOLDER</description>
+        <jobString>making a gestating queen egg</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Insectoid_Egg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>pphhyy_InsectJelly</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+                        <li>
+                <filter>
+                    <thingDefs>
+                        <li>InsectoidChitin</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Insectoid_Egg</li>
+                <li>pphhyy_InsectJelly</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <pphhyy_GestatingEggQueen>1</pphhyy_GestatingEggQueen>
+        </products>
+    </RecipeDef>
+
+</Defs>

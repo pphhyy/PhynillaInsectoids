@@ -6,7 +6,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>CeraAlba</defName>
     <label>cera alba</label>
-    <description>CeraAlba is naturally produced by Spelopedes as a construction material for the hive. It can be used for almost anything and everything. As strong as some stones its only downside is its flammability although for humans this is a good thing.</description>
+    <description>Cera Alba is naturally produced by Spelopedes as a construction material for the hive. It can be used for almost anything and everything. As strong as some stones its only downside is its flammability although for humans this is a good thing.</description>
     <graphicData>
       <texPath>Resources/CeraAlba</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -157,6 +157,7 @@
   <label>insect jelly</label>
   <description>Jelly stored and used as food by oversized insects. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
   <possessionCount>10</possessionCount>
+  <stackLimit>100</stackLimit>
   <graphicData>
     <texPath>Resources/InsectJelly</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>

@@ -58,7 +58,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -189,7 +189,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -344,7 +344,7 @@
       </li>
       <li>
         <def>EusocialInsectJuvenile</def>
-        <minAge>0.03</minAge>
+        <minAge>0.035</minAge>
       </li>
       <li>
         <def>EusocialInsectAdult</def>

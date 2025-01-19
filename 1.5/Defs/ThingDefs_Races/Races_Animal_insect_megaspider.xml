@@ -68,7 +68,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -151,7 +151,7 @@
 	  <li Class="CompProperties_Spawner">
         <thingToSpawn>pphhyy_InsectJelly</thingToSpawn>
         <spawnCount>100</spawnCount>
-        <spawnIntervalRange>100000</spawnIntervalRange>
+        <spawnIntervalRange>100000~100001</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
@@ -200,7 +200,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -350,7 +350,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -496,7 +496,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
