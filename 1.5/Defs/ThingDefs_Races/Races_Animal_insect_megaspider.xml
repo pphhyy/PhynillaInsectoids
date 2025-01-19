@@ -58,7 +58,7 @@
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
@@ -68,7 +68,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -149,9 +149,9 @@
     </statBases>
 	<comps>
 	  <li Class="CompProperties_Spawner">
-        <thingToSpawn>InsectJelly</thingToSpawn>
+        <thingToSpawn>pphhyy_InsectJelly</thingToSpawn>
         <spawnCount>100</spawnCount>
-        <spawnIntervalRange>100000</spawnIntervalRange>
+        <spawnIntervalRange>100000~100001</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
@@ -189,7 +189,7 @@
       <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>None</trainability>
@@ -200,7 +200,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -281,6 +281,16 @@
       <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Spawner">
+          <thingToSpawn>AcidJelly</thingToSpawn>
+          <spawnCount>20</spawnCount>
+          <spawnIntervalRange>26000~30000</spawnIntervalRange>
+          <spawnMaxAdjacent>100</spawnMaxAdjacent>
+          <spawnForbidden>false</spawnForbidden>
+          <saveKeysPrefix>jelly</saveKeysPrefix>
+        </li>
+    </comps>
     <tools>
       <li>
         <label>head claw</label>
@@ -330,7 +340,7 @@
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
@@ -340,7 +350,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -475,7 +485,7 @@
       <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.8</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
@@ -486,7 +496,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>

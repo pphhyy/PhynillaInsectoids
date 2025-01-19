@@ -6,11 +6,12 @@
   <ThingDef ParentName="ResourceBase">
     <defName>CeraAlba</defName>
     <label>cera alba</label>
-    <description>a stonelike material produced by insectoids</description>
+    <description>Cera Alba is naturally produced by Spelopedes as a construction material for the hive. It can be used for almost anything and everything. As strong as some stones its only downside is its flammability although for humans this is a good thing.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Jade</texPath>
+      <texPath>Resources/CeraAlba</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+    <possessionCount>75</possessionCount>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <soundInteract>ChunkRock_Drop</soundInteract>
@@ -58,13 +59,14 @@
  <!-- Chitin -->
 
     <ThingDef ParentName="ResourceBase">
-    <defName>PPHHYY_Chitin</defName>
-    <label>Chitin</label>
-    <description>a metallic material obtained from insectoids</description>
+    <defName>InsectoidChitin</defName>
+    <label>Insectoid chitin</label>
+    <description>Chitin from all the various Insectoid types, useful in armor crafting and weapon making.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Steel</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <texPath>Resources/InsectoidChitin/InsectoidChitin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>75</possessionCount>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <soundInteract>Metal_Drop</soundInteract>
@@ -114,10 +116,13 @@
 <ThingDef ParentName="EggUnfertBase">
   <defName>Insectoid_Egg</defName>
   <label>insectoid egg</label>
-  <description>Eggs layed by the Queen</description>
+  <description>Eggs laid by an insectoid Queen, each egg contains the building blocks to become any insectoid type once given the proper care and nutrition.</description>
   <graphicData>
     <color>(173,255,47)</color>
+    <texPath>Resources/InsectoidEggs</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
   </graphicData>
+  <possessionCount>10</possessionCount>
   <statBases>
     <MarketValue>7.0</MarketValue>
   </statBases>
@@ -126,9 +131,9 @@
 <!-- Silk -->
 
 <ThingDef ParentName="WoolBase">
-  <defName>Silk</defName>
-  <label>silk</label>
-  <description>Silk produced by silk spelopedes</description>
+  <defName>InsectoidSilk</defName>
+  <label>insectoid silk</label>
+  <description>Insectoid Silk woven by Silk Spelopedes is a basic building block of any hive, it can be used in building the hive as well as many other recipe's. For humans it can make  a great textile.</description>
   <possessionCount>30</possessionCount>
   <statBases>
     <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
@@ -140,8 +145,69 @@
   </stuffProps>
   <graphicData>
     <color>(219,214,209)</color>
+    <texPath>Resources/InsectoidSilk</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
   </graphicData>
 </ThingDef>
+
+<!-- Our Insect Jelly -->
+
+<ThingDef ParentName="OrganicProductBase">
+  <defName>pphhyy_InsectJelly</defName>
+  <label>insect jelly</label>
+  <description>Jelly stored and used as food by oversized insects. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
+  <possessionCount>10</possessionCount>
+  <stackLimit>100</stackLimit>
+  <graphicData>
+    <texPath>Resources/InsectJelly</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+  </graphicData>
+  <socialPropernessMatters>true</socialPropernessMatters>
+  <statBases>
+    <MarketValue>8.0</MarketValue>
+    <Mass>0.025</Mass>
+    <Nutrition>0.05</Nutrition>
+    <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+  </statBases>
+  <ingestible>
+    <foodType>AnimalProduct</foodType>
+    <preferability>MealFine</preferability>
+    <joy>0.08</joy>
+    <joyKind>Gluttonous</joyKind>
+    <ingestEffect>EatVegetarian</ingestEffect>
+    <ingestSound>Meal_Eat</ingestSound>
+    <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    <babiesCanIngest>true</babiesCanIngest>
+  </ingestible>
+  <thingCategories>
+    <li>AnimalProductRaw</li>
+  </thingCategories>
+  <allowedArchonexusCount>150</allowedArchonexusCount>
+</ThingDef>
+
+<!-- Acid Jelly -->
+
+<ThingDef ParentName="ResourceBase">
+  <defName>AcidJelly</defName>
+  <label>acid jelly</label>
+  <description>Acid Jelly should be handled with care as the thin membrane holding the acid together can break and burn things in comes in contact with. The hive can use it for various buildings, chemical reactions and producing specific hive creatures during gestating.</description>
+  <possessionCount>50</possessionCount>
+  <graphicData>
+    <texPath>Resources/AcidJelly/AcidJelly</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <socialPropernessMatters>true</socialPropernessMatters>
+  <statBases>
+    <MarketValue>8.0</MarketValue>
+    <Mass>0.025</Mass>
+    <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+  </statBases>
+  <thingCategories>
+    <li>AnimalProductRaw</li>
+  </thingCategories>
+  <allowedArchonexusCount>150</allowedArchonexusCount>
+</ThingDef>
+
 
 
 </Defs>

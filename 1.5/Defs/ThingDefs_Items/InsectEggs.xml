@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Defs>
+
+    <!-- Bases -->
+
+    <ThingDef Name= "pphhyy_GestatingEggsBase" ParentName="ResourceBase" Abstract= "true">
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <rotatable>false</rotatable>
+        <stackLimit>10</stackLimit>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <statBases>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <MarketValue>2.5</MarketValue>
+            <Mass>0.8</Mass>
+            <Flammability>0.2</Flammability>
+            <MaxHitPoints>60</MaxHitPoints>
+        </statBases>
+        <tickerType>Rare</tickerType>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>90</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+                <disableIfHatcher>true</disableIfHatcher>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name= "ChrysalisBase" ParentName="EggFertBase" Abstract= "true">
+        <stackLimit>1</stackLimit>
+        <tradeability>None</tradeability>
+        <ingestible>
+            <preferability>NeverForNutrition</preferability>
+        </ingestible>
+        <statBases>
+            <Beauty>1</Beauty>
+            <Mass>0.15</Mass>
+            <Flammability>1.0</Flammability>
+            <MarketValue>500</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <!-- Insectoid Gestating Eggs -->
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggMegaScarab</defName>
+        <label>gestating mega scarab egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggHunterScarab</defName>
+        <label>gestating hunter scarab egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggAcidScarab</defName>
+        <label>gestating acid scarab egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggSpelopede</defName>
+        <label>gestating spelopede egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggHunterSpelopede</defName>
+        <label>gestating hunter spelopede egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggSilkSpelopede</defName>
+        <label>gestating silk spelopede egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggWarriorSpider</defName>
+        <label>gestating warrior spider egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggMegaSpider</defName>
+        <label>gestating megaspider egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggNurserySpider</defName>
+        <label>gestating nursery spider egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggAcidSpider</defName>
+        <label>gestating acid spider egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggPlasmaMammoth</defName>
+        <label>gestating plasma mammoth egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggTunnelerMammoth</defName>
+        <label>gestating tunneler mammoth egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggTitan</defName>
+        <label>gestating titan egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggPrinceconsort</defName>
+        <label>gestating prince consort egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_GestatingEggsBase">
+        <defName>pphhyy_GestatingEggQueen</defName>
+        <label>gestating queen egg</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <!-- Larval Eggs -->
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_MegaScarabChrysalis</defName>
+        <label>mega scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>3</hatcherDaystoHatch>
+                <hatcherPawn>Megascarab</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_HunterScarabChrysalis</defName>
+        <label>hunter scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>3</hatcherDaystoHatch>
+                <hatcherPawn>HunterScarab</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_AcidScarabChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>3</hatcherDaystoHatch>
+                <hatcherPawn>AcidScarab</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_SpelopedeChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
+                <hatcherPawn>pphhyy_Spelopede</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_HunterSpelopedeChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
+                <hatcherPawn>pphhyy_HunterSpelopede</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_SilkSpelopedeChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
+                <hatcherPawn>pphhyy_SilkSpelopede</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_MegaspiderChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherPawn>Megaspider</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_WarriorSpiderChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherPawn>WarriorSpider</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_NurserySpiderChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherPawn>NurserySpider</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_AcidSpiderChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherPawn>AcidSpider</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_TunnelerMammothChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherPawn>Tunneler</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_PlasmaMammothChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherPawn>PlasmaMammoth</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_TitanChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>30</hatcherDaystoHatch>
+                <hatcherPawn>Titan</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_PrinceconsortChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>30</hatcherDaystoHatch>
+                <hatcherPawn>PrinceConsort</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ChrysalisBase">
+        <defName>pphhyy_QueenChrysalis</defName>
+        <label>acid scarab chrysalis</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>30</hatcherDaystoHatch>
+                <hatcherPawn>Queen</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -48,7 +48,7 @@
       <baseHealthScale>0.35</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
@@ -58,7 +58,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -180,7 +180,7 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
-      <leatherDef>PPHHYY_Chitin</leatherDef>
+      <leatherDef>InsectoidChitin</leatherDef>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -189,7 +189,7 @@
         </li>
         <li>
           <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <minAge>0.035</minAge>
         </li>
         <li>
           <def>EusocialInsectAdult</def>
@@ -276,6 +276,16 @@
     <LeatherAmount>40</LeatherAmount>
   </statBases>
   <uiIconScale>2</uiIconScale>
+  <comps>
+    <li Class="CompProperties_Spawner">
+        <thingToSpawn>AcidJelly</thingToSpawn>
+        <spawnCount>20</spawnCount>
+        <spawnIntervalRange>26000~30000</spawnIntervalRange>
+        <spawnMaxAdjacent>100</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+        <saveKeysPrefix>jelly</saveKeysPrefix>
+      </li>
+  </comps>
   <tools>
     <li>
       <label>mandibles</label>
@@ -324,7 +334,7 @@
     <baseHealthScale>0.35</baseHealthScale>
     <useMeatFrom>Megaspider</useMeatFrom>
     <lifeExpectancy>10</lifeExpectancy>
-    <leatherDef>PPHHYY_Chitin</leatherDef>
+    <leatherDef>InsectoidChitin</leatherDef>
     <wildness>0.2</wildness>
     <trainability>Intermediate</trainability>
     <lifeStageAges>
@@ -334,7 +344,7 @@
       </li>
       <li>
         <def>EusocialInsectJuvenile</def>
-        <minAge>0.03</minAge>
+        <minAge>0.035</minAge>
       </li>
       <li>
         <def>EusocialInsectAdult</def>
