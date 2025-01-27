@@ -247,7 +247,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_SpelopedeChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>speloped chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -263,7 +263,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_HunterSpelopedeChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>hunter spelopede chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -279,7 +279,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_SilkSpelopedeChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>silk spelopede chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -295,7 +295,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_MegaspiderChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>megaspider chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -311,7 +311,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_WarriorSpiderChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>warrior spider chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -327,7 +327,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_NurserySpiderChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>nursery spider chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -343,7 +343,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_AcidSpiderChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>acid spider chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -359,7 +359,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_TunnelerMammothChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>tunneler mammoth chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -375,7 +375,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_PlasmaMammothChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>plasma mammoth chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -391,7 +391,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_TitanChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>titan chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -407,7 +407,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_PrinceconsortChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>prince consort chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>
@@ -423,7 +423,7 @@
 
     <ThingDef ParentName="ChrysalisBase">
         <defName>pphhyy_QueenChrysalis</defName>
-        <label>acid scarab chrysalis</label>
+        <label>queen chrysalis</label>
         <description>PLACEHOLDER</description>
         <graphicData>
             <texPath>Resources/GestatingEgg/GestatingEgg</texPath>

@@ -40,10 +40,10 @@
         <comps>
             <li Class="ProcessorFramework.CompProperties_Processor">
                 <capacity>10</capacity>
-                <independentProcesses>false</independentProcesses>
-                <parallelProcesses>false</parallelProcesses>
+                <independentProcesses>true</independentProcesses>
+                <parallelProcesses>true</parallelProcesses>
                 <dropIngredients>false</dropIngredients>
-                <showProductIcon>false</showProductIcon>
+                <showProductIcon>true</showProductIcon>
                 <barOffset>(0.0, -0.4)</barOffset>
                 <barScale>(0.7, 0.7)</barScale>
                 <colorCoded>false</colorCoded>
@@ -310,6 +310,23 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
+
+	<WorkGiverDef>
+		<defName>pphhyy_DoBillsGestationWorkBench</defName>
+		<label>harvest</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>90</priorityInType>
+			<fixedBillGiverDefs>
+				<li>pphhyy_GestationWorkbench</li>
+			</fixedBillGiverDefs>
+		<verb>gestate</verb>
+		<gerund>gestating at</gerund>
+		<requiredCapacities>
+				<li>Manipulation</li>
+		</requiredCapacities>
+			<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
 
 
 </Defs>
