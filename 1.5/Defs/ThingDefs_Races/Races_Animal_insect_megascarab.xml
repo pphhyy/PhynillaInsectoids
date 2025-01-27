@@ -280,9 +280,10 @@
     <li Class="CompProperties_Spawner">
         <thingToSpawn>AcidJelly</thingToSpawn>
         <spawnCount>20</spawnCount>
-        <spawnIntervalRange>26000~30000</spawnIntervalRange>
+        <spawnIntervalRange>30000</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
   </comps>

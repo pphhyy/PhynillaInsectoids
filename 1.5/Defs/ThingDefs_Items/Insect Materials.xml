@@ -118,7 +118,6 @@
   <label>insectoid egg</label>
   <description>Eggs laid by an insectoid Queen, each egg contains the building blocks to become any insectoid type once given the proper care and nutrition.</description>
   <graphicData>
-    <color>(173,255,47)</color>
     <texPath>Resources/InsectoidEggs</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>
   </graphicData>

@@ -23,6 +23,7 @@
         <spawnIntervalRange>90000</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
     </comps>
@@ -154,13 +155,17 @@
       <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
-    <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>InsectoidSilk</woolDef>
-        <shearIntervalDays>10</shearIntervalDays>
-        <woolAmount>25</woolAmount>
+      <comps>
+    <li Class="CompProperties_Spawner">
+        <thingToSpawn>InsectoidSilk</thingToSpawn>
+        <spawnCount>25</spawnCount>
+        <spawnIntervalRange>300000</spawnIntervalRange>
+        <spawnMaxAdjacent>50</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
-    </comps>
+  </comps>
     <tools>
       <li>
         <label>head claw</label>
